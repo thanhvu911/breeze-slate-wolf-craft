@@ -1,0 +1,463 @@
+import { b as require_jsx_runtime } from "../_libs/@tanstack/react-router+[...].mjs";
+import { l as cn } from "./router-XdJlhW9X.mjs";
+import { o as CopyValue, t as Card } from "./page-header-JsxPbmIy.mjs";
+//#region node_modules/.nitro/vite/services/ssr/assets/kpi-card-CaTxYSfO.js
+var import_jsx_runtime = require_jsx_runtime();
+var foundation = {
+	name: "The Steinman Foundation",
+	year: 2025,
+	founded: 1951,
+	mission: "To improve the quality of life in the communities that comprise Lancaster County.",
+	totalAllocated2025: 5313374,
+	lifetimePhilanthropy: 13e7,
+	contact: "Info@SteinmanFoundation.org",
+	site: "SteinmanFoundation.org"
+};
+var county = {
+	residents: 558e3,
+	popGrowth10yr: 5.9,
+	growth55plus: 9.7,
+	unemployment: 2.9
+};
+var fundingByArea = [
+	{
+		key: "workforce",
+		name: "Economic & Workforce",
+		amount: 1924320,
+		color: "var(--color-primary)"
+	},
+	{
+		key: "stewardship",
+		name: "Community Stewardship",
+		amount: 1329005,
+		color: "var(--color-accent)"
+	},
+	{
+		key: "other",
+		name: "Journalism, Early Learning & Education",
+		amount: 2060049,
+		color: "var(--color-primary-soft)"
+	}
+];
+var reachChannels = [
+	{
+		name: "Science Factory visitors",
+		value: 84e3,
+		why: "Early STEM access expanded 4× in Pre-K exhibit space"
+	},
+	{
+		name: "Workforce people & partners",
+		value: 24364,
+		why: "LCSA pathways, summit, and Inspire Lancaster"
+	},
+	{
+		name: "STEM learning students",
+		value: 5280,
+		why: "Career-connected STEM pathways across the county"
+	},
+	{
+		name: "Children under 3 engaged",
+		value: 3365,
+		why: "Hands-on discovery before kindergarten"
+	},
+	{
+		name: "Crisis walk-in visits",
+		value: 1718,
+		why: "Immediate behavioral health access, 90% stayed out of ED"
+	},
+	{
+		name: "Library STEM participants",
+		value: 1390,
+		why: "Lifelong STEM from early childhood through adulthood"
+	},
+	{
+		name: "Financial counseling clients",
+		value: 481,
+		why: "HUD counseling for housing stability"
+	},
+	{
+		name: "ECHOS housing support",
+		value: 322,
+		why: "Bilingual, low-barrier case management"
+	},
+	{
+		name: "Inspire Lancaster students",
+		value: 308,
+		why: "Work-based learning with local employers"
+	},
+	{
+		name: "Pre-K STEM Explorers",
+		value: 221,
+		why: "Age-appropriate STEM for 3–5 year olds"
+	},
+	{
+		name: "Tenfold individuals served",
+		value: 134,
+		why: "Transitional housing and supportive services"
+	},
+	{
+		name: "Workforce 2030 leaders",
+		value: 117,
+		why: "Shared agenda for the county talent pipeline"
+	}
+];
+var employerClusters = [
+	{
+		name: "Advanced Manufacturing",
+		value: 23.7
+	},
+	{
+		name: "Healthcare & Human Services",
+		value: 14.4
+	},
+	{
+		name: "Education",
+		value: 10.3
+	},
+	{
+		name: "Hospitality, Events & Tourism",
+		value: 9.3
+	},
+	{
+		name: "Financial Services",
+		value: 8.2
+	},
+	{
+		name: "Construction",
+		value: 8.2
+	},
+	{
+		name: "Management & Entrepreneurship",
+		value: 6.2
+	},
+	{
+		name: "Public Service & Safety",
+		value: 5.2
+	},
+	{
+		name: "Arts, Entertainment & Design",
+		value: 5.2
+	},
+	{
+		name: "Energy & Natural Resources",
+		value: 4.1
+	},
+	{
+		name: "Digital Technology",
+		value: 2.6
+	},
+	{
+		name: "Marketing & Sales",
+		value: 1.4
+	},
+	{
+		name: "Agriculture",
+		value: 1.2
+	}
+];
+var journalismMilestones = [
+	{
+		title: "Messaging framework",
+		detail: "Research-backed public-support framework developed with Press Forward Central PA."
+	},
+	{
+		title: "Information Ecosystem Map",
+		detail: "Region’s first Central PA map identifying news-access gaps and collaboration opportunities."
+	},
+	{
+		title: "Unified structure",
+		detail: "Steinman Institute for Civic Engagement joined the Local Journalism Fund to scale local, regional, and national impact."
+	}
+];
+var journalismAssumptions = [
+	{
+		question: "Trusted local news is a civic infrastructure, not a luxury.",
+		status: "holding",
+		evidence: "Ecosystem map launched; convenings held throughout 2025; unified fund structure in place."
+	},
+	{
+		question: "Public support for local journalism can be strengthened with research-backed messaging.",
+		status: "holding",
+		evidence: "Press Forward Central PA messaging framework completed in 2025."
+	},
+	{
+		question: "News-access gaps in Central PA can be mapped and closed through collaboration.",
+		status: "in-progress",
+		evidence: "First regional Information Ecosystem Map published; gap-closing work ongoing."
+	}
+];
+var journalismProjects = [
+	{
+		name: "Lancaster County Local Journalism Fund",
+		status: "Active",
+		focus: "Local news sustainability"
+	},
+	{
+		name: "Press Forward Central PA",
+		status: "Active",
+		focus: "Public support for local news"
+	},
+	{
+		name: "Central PA Information Ecosystem Map",
+		status: "Launched 2025",
+		focus: "Access gaps & collaboration"
+	},
+	{
+		name: "Steinman Institute for Civic Engagement",
+		status: "Integrating",
+		focus: "Civic dialogue at scale"
+	},
+	{
+		name: "Louder Than Guns convenings",
+		status: "2025 events",
+		focus: "Gun violence, youth voice, mental health"
+	}
+];
+var environmentalSites = [
+	{
+		id: "bgc",
+		name: "Blue Green Connector",
+		kind: "Greenway",
+		x: 38,
+		y: 48,
+		detail: "3.5-mile ADA-accessible greenway restoring ecosystem health along the Little Conestoga Creek while connecting neighborhoods, schools, parks, workplaces, and healthcare."
+	},
+	{
+		id: "wetlands",
+		name: "Little Conestoga wetlands",
+		kind: "Restoration",
+		x: 42,
+		y: 56,
+		detail: "Restored wetlands in Lancaster Township — a living classroom for restoration, recreation, education, art, and research."
+	},
+	{
+		id: "farmland",
+		name: "Lancaster Farmland Trust",
+		kind: "Stewardship",
+		x: 62,
+		y: 32,
+		detail: "Community Stewardship support for farmland preservation across the county’s agricultural landscape."
+	},
+	{
+		id: "city",
+		name: "Lancaster City",
+		kind: "Civic core",
+		x: 48,
+		y: 52,
+		detail: "Witness Stones, Parish Resource Center / PIAC, libraries, and housing partners concentrated in the city."
+	},
+	{
+		id: "lititz",
+		name: "Rock Lititz / ALT",
+		kind: "Workforce",
+		x: 44,
+		y: 22,
+		detail: "Live Experience Design pipeline with PCAD and the Academy of Live Technology — 1,750 professionals on campus companies."
+	}
+];
+var housingMetrics = [
+	{
+		label: "Tenfold individuals served",
+		value: "134"
+	},
+	{
+		label: "Transitioned to permanent housing",
+		value: "56"
+	},
+	{
+		label: "Exited to positive destinations",
+		value: "79%"
+	},
+	{
+		label: "Stable housing two years post-exit",
+		value: "78%"
+	},
+	{
+		label: "ECHOS individuals supported",
+		value: "322"
+	},
+	{
+		label: "HUD one-on-one counseling",
+		value: "481"
+	},
+	{
+		label: "Fair Housing workshop attendees",
+		value: "339"
+	},
+	{
+		label: "Predatory-lending education",
+		value: "382"
+	},
+	{
+		label: "Foreclosures mitigated",
+		value: "30"
+	},
+	{
+		label: "Pre-purchase homebuyer courses",
+		value: "434"
+	},
+	{
+		label: "Eviction / foreclosure prevention",
+		value: "132"
+	}
+];
+var mentalHealthMetrics = [
+	{
+		label: "MHAA providers in the county",
+		value: "26"
+	},
+	{
+		label: "Mental health sessions supported",
+		value: "684"
+	},
+	{
+		label: "Individuals enrolled in MHAA",
+		value: "81"
+	},
+	{
+		label: "Fellows completing supervision",
+		value: "29"
+	},
+	{
+		label: "Crisis Walk-In visits",
+		value: "1,718"
+	},
+	{
+		label: "Reduction in BH patients in ED",
+		value: "14%"
+	},
+	{
+		label: "Walk-ins not transferred to ED",
+		value: "90%"
+	}
+];
+var earlyLearning = [
+	{
+		label: "Early Learning Network growth",
+		value: "360%",
+		detail: "Organizations grew from 5 to 23 in 2025"
+	},
+	{
+		label: "Educators in training",
+		value: "62+",
+		detail: "Leadership development across the network"
+	},
+	{
+		label: "Science Factory visitors",
+		value: "84,000+",
+		detail: "Countywide hands-on STEM"
+	},
+	{
+		label: "Children under 3 engaged",
+		value: "3,365",
+		detail: "Earliest STEM exposure"
+	},
+	{
+		label: "Pre-K exhibit space",
+		value: "4×",
+		detail: "250 to 1,000+ sq ft"
+	}
+];
+var grantsKnown = [
+	{
+		name: "Economic & Workforce Development",
+		amount: 1924320,
+		note: "LCSA, Inspire Lancaster, library STEM, live-experience education"
+	},
+	{
+		name: "Community Stewardship Grant Program",
+		amount: 1329005,
+		note: "Housing, DEIB, farmland, health, civic partners"
+	},
+	{
+		name: "Journalism, early learning & education",
+		amount: 2060049,
+		note: "Remainder of 2025 allocations across remaining focus areas"
+	}
+];
+var educationCapital = [
+	{
+		name: "College & university endowments",
+		amount: 25e5,
+		note: "Lifetime endowed capital for faculty and students"
+	},
+	{
+		name: "John F. Steinman Fellowships (2025)",
+		amount: 8e4,
+		note: "Psychiatry, psychology, and social work — 10 graduates in 2025"
+	},
+	{
+		name: "James Hale Steinman Scholarships",
+		amount: 3e4,
+		note: "Up to $30,000 per student over four years"
+	}
+];
+var stewardshipOrgs = [
+	"ASSIST",
+	"Bench Mark Program",
+	"Boys & Girls Club of Lancaster",
+	"CHI St. Joseph Children's Health",
+	"Community Action Partnership of Lancaster County",
+	"Franklin & Marshall College",
+	"Girls on the Run Lancaster-Lebanon",
+	"Horizons at Lancaster Country Day School",
+	"Lancaster Chamber of Commerce",
+	"Lancaster City Alliance",
+	"Lancaster County Community Foundation",
+	"Lancaster Education Foundation",
+	"Lancaster Farmland Trust",
+	"Lancaster General Health Foundation",
+	"LancasterHistory",
+	"Leadership Lancaster",
+	"Mental Health America of Lancaster County",
+	"Music for Everyone",
+	"Parish Resource Center",
+	"Pennsylvania Friends of Agriculture Foundation",
+	"Rock Ford Foundation",
+	"Tenfold",
+	"Thaddeus Stevens College of Technology",
+	"Touchstone Foundation",
+	"United Way of Lancaster County"
+];
+var insights = [
+	{
+		title: "Workforce reach is compounding",
+		body: "24,364 people and partners were touched in 2025, with 73% of LCSA participants saying they would not have had access without grant support."
+	},
+	{
+		title: "Early learning infrastructure scaled fast",
+		body: "The Early Learning Network grew 360% (5 → 23 organizations) while Science Factory Pre-K space quadrupled."
+	},
+	{
+		title: "Crisis care is diverting the ER",
+		body: "1,718 Behavioral Health Crisis Walk-In visits; 90% did not require transfer to the Emergency Department."
+	},
+	{
+		title: "Housing exits are sticking",
+		body: "Tenfold: 79% exited to positive destinations and 78% remained stably housed two years later."
+	}
+];
+function KpiCard({ label, value, hint, className }) {
+	return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(Card, {
+		className: cn("p-5", className),
+		children: [
+			/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+				className: "flex items-start justify-between gap-2",
+				children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+					className: "text-xs font-medium uppercase tracking-[0.14em] text-muted",
+					children: label
+				}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)(CopyValue, { text: `${label}: ${value}` })]
+			}),
+			/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+				className: "mt-2 font-display text-3xl font-medium tracking-tight tabular-nums sm:text-4xl",
+				children: value
+			}),
+			hint ? /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+				className: "mt-2 text-sm text-muted text-pretty",
+				children: hint
+			}) : null
+		]
+	});
+}
+//#endregion
+export { stewardshipOrgs as _, employerClusters as a, fundingByArea as c, insights as d, journalismAssumptions as f, reachChannels as g, mentalHealthMetrics as h, educationCapital as i, grantsKnown as l, journalismProjects as m, county as n, environmentalSites as o, journalismMilestones as p, earlyLearning as r, foundation as s, KpiCard as t, housingMetrics as u };
